@@ -17,13 +17,13 @@ A data structures is also known as Abstract Data Type (ADT) since the behavior o
 
 ## Classification of Data Structures
 
-1.  Homogeneous and Non-Homogeneous Data Structures
-In Homogeneous data structure all data elements are of same data type viz. Array whereas in Non-Homogeneous data structure contains the elements of different data types viz. Linked List.
+1.  **Homogeneous and Non-Homogeneous Data Structures**
+    In Homogeneous data structure all data elements are of same data type viz. Array whereas in Non-Homogeneous data structure contains the elements of different data types viz. Linked List.
 
-2.  Linear and Non-Linear Data Structures
-In Linear data structure the elements are arranged in a linear sequence viz. Array, Linked List, Queue, Stack etc. whereas in Non-Linear data structure elements do not follow a specific sequence like Tree and Graph data structure.
+2.  **Linear and Non-Linear Data Structures**
+    In Linear data structure the elements are arranged in a linear sequence viz. Array, Linked List, Queue, Stack etc. whereas in Non-Linear data structure elements do not follow a specific sequence like Tree and Graph data structure.
 
-3.  Static and Dynamic Data Structures
-Static data structure has fixed memory occupation viz. Array whereas Dynamic data structures has varying memory occupation.
+3.  **Static and Dynamic Data Structures**
+    Static data structure has fixed memory occupation viz. Array whereas Dynamic data structures has varying memory occupation.
 
 
