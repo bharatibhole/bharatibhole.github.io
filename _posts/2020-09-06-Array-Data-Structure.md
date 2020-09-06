@@ -87,6 +87,8 @@ The individual ement can be accessed by specifying subscript or index value of t
 
 For eaxmple, Print 3rd element of an array and its memory location address
 
-`cout <<”A[2]=”<<A[2];`
+```cpp
+cout <<”A[2]=”<<A[2];
+```
 
 ### Two-Dimensional Array
