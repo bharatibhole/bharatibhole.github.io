@@ -4,7 +4,7 @@ title: Data Structure
 color: rgb(0,0,255) 
 tags: [Programming, Data Structure]
 excerpt: Data structure is a way of collecting and organizing data in computer’s memory so that it can be used to perform operations efficiently
-author: bbb
+author: BBB
 ---
 
 # Data Structure
