@@ -9,7 +9,7 @@ avatar: assets/img/b.png                         # Empty for no avatar in navbar
 favicon: assets/img/b.png                             # Icon displayed in the tab
 
 # Header and footer text
-header_text:   # Change Blog header text
+header_text: "Learn Coding"  # Change Blog header text
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
   Managed by Bharati Bhole and Hosted on Github Static Pages :)
