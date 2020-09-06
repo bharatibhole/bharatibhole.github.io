@@ -31,7 +31,7 @@ int main()
     cout<<"Elements of Array A are:"
     for(i=0;i<5;i++)
     {
-    cout<<"arr_A["<<"]="<<arr_A[i]<<"\n";
+    cout<<"arr_A["<<i<<"]="<<arr_A[i]<<"\n";
     }
     return 0;
 }
@@ -45,10 +45,72 @@ int main()
 
 ## 4. Search
    Searching operation helps to check the existance of a particular element into the array.
+```cpp
+
+#include <iostream>
+
+using namespace std;
+
+int
+main ()
+{
+  int arr_A[] = { 10, 80, 40, 70, 60 };
+  int i, searchEle,flag;
+  cout << "Elements of Array A are:";
+  for(i = 0; i < 5; i++)
+    {
+      cout << "arr_A[" << i <<"]=" << arr_A[i] << "\n";
+    }
+  cout << "Enter the element to be searched:";
+  cin >> searchEle;
+  for(i = 0; i < 5; i++)
+    {
+    if (arr_A[i] == searchEle)
+	   flag = i;
+	else
+	   flag = -1;
+	}
+  if(flag >=0)	
+    cout << "Element " << searchEle << " found at index " << flag << "\n";
+  else
+    cout<<"SearchEle Not Found in given array\n";
+  return 0;
+}
+```
 
 ## 5. Update − Updates an element at the given index.
    The Updating operation refers to updating the existing element value from an array at a given index.
 
+```cpp
+#include <iostream>
 
+using namespace std;
+
+int main ()
+{
+  int arr_A[] = { 10, 80, 40, 70, 60 };
+  int i, updateIdx, newEleVal;
+  cout << "Elements of Array A are:";
+  for (i = 0; i < 5; i++)
+    {
+      cout << "arr_A[" << i << "]=" << arr_A[i] << "\n";
+    }
+  cout << "Enter the index of element to be updated:";
+  cin >> updateIdx;
+  cout << "Enter new value for the element";
+  cin >> newEleVal;
+  if (updateIdx < 5)
+    {
+      arr_A[updateIdx] = newEleVal;
+      cout << "Array element at index " << updateIdx << " is Updated\n";
+      cout << "arr_A[updateIdx]=" << arr_A[updateIdx];
+    }
+  else
+    cout << "Index out of range\n";
+
+  return 0;
+}
+
+```
 
 
