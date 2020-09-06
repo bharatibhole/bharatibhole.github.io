@@ -9,31 +9,46 @@ author: BBB
 
 # Array Operations
 Array data structure supports following basic operations - 
+1. Traverse
+2. Insertion
+3. Deletion
+4. Search
+5. Update
 
-1. Traverse 
+
+## 1. Traverse 
    In Traversing operation every element of an array will be visited for processing for only once.  
    
-2. Insertion 
+``` 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int arr_A[]={10,80,40,70,60};
+    int i;
+    cout<<"Elements of Array A are:"
+    for(i=0;i<5;i++)
+    {
+    cout<<"arr_A["<<"]="<<arr_A[i]<<"\n";
+    }
+    return 0;
+}
+```   
+## 2. Insertion 
    Intsertion operation is to insert one or more elements into an array. The element can be inserted at the begining, end or at any given position.
    
 
-3. Deletion 
+## 3. Deletion 
    Deletion operation refers to removing an element from an array. In order to remove the element from an array you have to reorganize the elements of an array. 
 
-4. Search − Searches an element using the given index or by the value.
+## 4. Search
+   Searching operation helps to check the existance of a particular element into the array.
 
-5. Update − Updates an element at the given index.
-
-n traversing operation of an array, each element of an array is accessed exactly for once for processing. This is also called visiting of an array.
-
+## 5. Update − Updates an element at the given index.
+   The Updating operation refers to updating the existing element value from an array at a given index.
 
 
-Deletion Operation
-Deletion refers to removing an existing element from the array and re-organizing all elements of an array.
 
-Search Operation
-You can perform a search for array element based on its value or its index.
-
-Update Operation
-Update operation refers to updating an existing element from the array at a given index.
 
