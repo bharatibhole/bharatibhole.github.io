@@ -19,7 +19,7 @@ Array data structure supports following basic operations -
 ## 1. Traverse 
    In Traversing operation every element of an array will be visited for processing for only once.  
    
-``` 
+```cpp
 #include <iostream>
 
 using namespace std;
