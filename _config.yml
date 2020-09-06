@@ -3,7 +3,7 @@ baseurl: "/"
 url: "https://bharatibhole.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: IT Mania                                   # site's title
+title: LearnCode                                   # site's title
 description: "Learning with B"      # used by search engines
 avatar: assets/img/b.png                         # Empty for no avatar in navbar
 favicon: assets/img/b.png                             # Icon displayed in the tab
