@@ -1,0 +1,22 @@
+---
+layout: post
+title: Array Operations 
+color: rgb(0,0,255) 
+tags: [Array, Array Operations]
+excerpt: 
+author: BBB
+---
+
+# Array Operations
+Array data structure supports following basic operations - 
+
+1. Traverse − print all the array elements one by one.
+
+2. Insertion − Adds an element at the given index.
+
+3. Deletion − Deletes an element at the given index.
+
+4. Search − Searches an element using the given index or by the value.
+
+5. Update − Updates an element at the given index.
+
