@@ -3,7 +3,7 @@ layout: post
 title: Data Structure
 color: rgb(0,0,255) 
 tags: [Array, Data Structure]
-excerpt: This is a post regarding the array data structure in c plus plus. enjhoy your time reading it
+excerpt: Data structure is a way of collecting and organizing data in computer’s memory so that it can be used to perform operations efficiently
 author: bbb
 ---
 
