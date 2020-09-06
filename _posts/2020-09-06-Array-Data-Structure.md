@@ -89,4 +89,4 @@ For eaxmple, Print 3rd element of an array and its memory location address
 
 `cout <<”A[2]=”<<A[2];`
 
-# Array Operations
+### Two-Dimensional Array
