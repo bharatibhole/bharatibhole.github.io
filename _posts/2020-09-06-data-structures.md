@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Data Structure
-color: rgb(0,0,255) 
 tags: [Programming, Data Structure]
 feature-img: "/assets/img/wordcloudbutterfly.jpeg"
 excerpt: Data structure is a way of collecting and organizing data in computer’s memory so that it can be used to perform operations efficiently
