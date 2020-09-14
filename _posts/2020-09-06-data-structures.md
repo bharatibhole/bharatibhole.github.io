@@ -24,7 +24,7 @@ The above figure shows some of the basic data structures.
 
 ## Classification of Data Structures
 
-![](/assets/img/bbb_blog_imgs/DS_Basic_Types.jpg)
+![](/assets/img/bbb_blog_imgs/DS_Basic_Types.png)
 
 
 1.  **Homogeneous and Non-Homogeneous Data Structures**
