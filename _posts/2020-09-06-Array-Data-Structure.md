@@ -9,7 +9,7 @@ author: BBB
 
 An array is a collection of finite number of elements that means the size an array is fixed and should be defined at the time of declaration of an array. 
 
-Array is linear, homogeneous and static data structure. The elements of an array can be accessed randomly by specifying its index value. 
+Array is the simplest data structure. Array is a linear, homogeneous and static data structure. The elements of an array can be accessed randomly by specifying its index value. 
 
 Array data structure is used to store elements of basic data type like int, float, double, char etc. 
 
@@ -42,47 +42,47 @@ Depending on the number of dimensions ( Number of subscripts or index ), arrays 
 
 ### One-Dimensional Array
 
-An array with a single subscript is known as one-dimensional array. One-dimensional array can be used to store the set of values of same data types 
-or in other terms we can say that one-dimensional array can be used to store the values of a vector.
+An array with a single subscript is known as one-dimensional array. One-dimensional array can be used to store the set of values of same data types or in other terms we can say that one-dimensional array can be used to store the values of a vector.
 
-#### For Example
-Let us define a one-dimensional array named 'A' to store marks of 5 students. 
+#### For Example,
 
-So here, Size of array is 5 and  Index of First element will be 0.
+Let us define a one-dimensional array named 'Arr' to store marks of 5 students. 
 
-Note: All code statements included into this blog are written using the of syntax C++ language.
+So here, Size of array is 5,  the Index of First element of array Arr will be 0 and the elements of array Arr can be refered by the notations like Arr[0], Arr[1], Arr[2], Arr[3] and Arr[4].
 
-Define or Declare an Array A as,
+#### Implementation of Array in C++
 
-```A[5] = {60,70,75,85,90} ```
 
-#### Pictorial Representation 
-When you create an array variable or object, it will be initialized with the address of first element.
-If the memory location assigned to first element is 3050, the memory location address for other elements will be as follows:
+#### Array Declaration
 
-| | | | | | |
-|-|-|-|-|-|-| 
-| Index           |	0	     | 1       |	2      |      3	|      4 |
-| Element Value	  | 60    | 70      |	75     |	   85 |     90 |
-| Memory Location |	3050 | 3051	| 3052 | 3053 |	3054 |
+The arrays can be declared by specifying the size of the array and data type of the values tobe stored into it.
+Let us define or Declare a one-dimensional Array Arr of size 5 as shown in the follwong code:
+ 
+```cpp
+int A[5];
+```
 
-#### Array Declaration  
-```int A[5];```
-#### Array Declaration and Initialization into a Single Statement
-```int A[5] = {60,70,75,85,90};```
 #### Initialization of an individual Element of an Array 
 Initialize an individual element by specifying the index value of an element.
-Let us define all elements of Array A:
+Let us initialize all elements of Array A as shown in the follwong code:
 
-`A[1]=70;`
+```cpp
+A[1]=70;
+A[2]=75;
+A[3]=85;
+A[4]=90;
+```
 
-`A[2]=75;`
+#### Array Declaration and Initialization into a Single Statement
 
-`A[3]=85;`
+C++ allows us to declare and initialize an array into a single statement. 
+Let us declare and initialize array Arr into a single statement as shown into the following code:
 
-`A[4]=90;`
-
+```cpp
+int Arr[5] = {60,70,75,85,90};
+```
 ### Access the element of an array
+
 The individual ement can be accessed by specifying subscript or index value of the element.
 
 For eaxmple, Print 3rd element of an array and its memory location address
@@ -90,5 +90,19 @@ For eaxmple, Print 3rd element of an array and its memory location address
 ```cpp
 cout <<”A[2]=”<<A[2];
 ```
+
+
+#### Pictorial Representation 
+When you create an array variable or object, it will be initialized with the address of first element. The memory location address of next consecutive element can be calculated by adding the memory size into the address of current memory location. 
+
+Let us consider the memory location assigned to first element is 3050. The memory rquired to stroe the integer value is 2 bytes. So the memory location address for second elements can be calculated as 3050 + 2 = 3052.
+
+| | | | | | |
+|-|-|-|-|-|-| 
+| Index           |	0	     | 1       |	2      |      3	|      4 |
+| Element Value	  | 60    | 70      |	75     |	   85 |     90 |
+| Memory Location |	3050 | 3052	| 3054 | 3056 |	3058 |
+
+
 
 ### Two-Dimensional Array
