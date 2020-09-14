@@ -17,8 +17,7 @@ When the data is organized in a structured format, it becomes easy to apply func
 
 Data structures are also known as Abstract Data Types (ADT) since the behavior of data structure is defined by its set of values and operations. The abstract name of data structure like Stack itself specifies the type of operations supported by it. For example, the Stack data structure supports the Push and Pop operations. 
 
-
-{% include aligner.html images="bbb_blog_imgs/DS_Types.jpg" %}
+{% include aligner.html images="bbb_blog_imgs/DS_Basic_Types.png" %}
 
 
 The above figure shows some of the basic data structures.
@@ -26,8 +25,7 @@ The above figure shows some of the basic data structures.
 
 ## Classification of Data Structures
 
-
-{% include aligner.html images="bbb_blog_imgs/DS_Basic_Types.png" %}
+{% include aligner.html images="bbb_blog_imgs/DS_Types.jpg" %}
 
 
 1.  **Homogeneous and Non-Homogeneous Data Structures**
