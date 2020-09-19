@@ -97,7 +97,7 @@ When you create an array variable or object, it will be initialized with the add
 
 Let us consider the memory location assigned to first element is 3050. The memory rquired to store the integer value is 2 bytes. So the memory location address for second elements can be calculated as 3050 + 2 = 3052.
 
-| | | | | | |
+|                 | | | | | |
 |-|-|-|-|-|-| 
 | Index           |	0	     | 1       |	2      |      3	|      4 |
 | Element Value	  | 60    | 70      |	75     |	   85 |     90 |
