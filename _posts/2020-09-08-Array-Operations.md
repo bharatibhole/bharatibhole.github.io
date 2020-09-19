@@ -18,7 +18,11 @@ Array data structure supports following basic operations -
 
 ## 1. Traverse 
    In Traversing operation every element of an array will be visited for processing for only once.  
-   
+  **Steps** to traverse an array
+     1. Start array traversal from first element that exists at index 0.
+     2. Visit that element means apply the process/tesk to that element.
+     3. Move to next element and repeat steps from step number 2 till the last element.
+     
 **Example**
 Given an array arr_A of 5 elements like 10,80,40,70,60, traverse and print the elements of the array.
 
@@ -60,7 +64,23 @@ Press ENTER to exit console.
 
 ## 2. Insertion 
    Intsertion operation is to insert one or more elements into an array. The element can be inserted at the begining, end or at any given position.
-   
+
+  Let us consider an array of size 'n' with 'm' existing elements, where 'm' is always less than or equal to 'n-1' as array index starts from 0.
+
+  **Steps to insert an element at the end of an array**
+    1. if the array is empty that means if m=o, insert the elements at the 1st position into the array.
+    2. if the array contains m elements and m<=n-2,insert the element at (m+1)th position into the array.
+     
+  **Steps to insert an element at the begining of an array**
+    1. If the array is empty that means if m=0, insert an element at 1st position into the array.
+    2. If the array of size 'n' contains 'm' elements, then shift the m elements forward by one position and insert the new element at the 1st position.
+    3. If the number of existing elements are equal to the array size that means if n=m, the you can not insert the elements intothe array.
+
+  **Steps to insert an element at the specific position into an array**
+    1. Read the index position 'insAtIdx' from the user, where the new element isto be inserted.
+    2. If array is not full and if insAtIdx<=n-2, shift the subsequent element upward by one position that means shift the elements from mth position to insAtIdx position.
+    3. Insert the new element at the given index position neinsAtIdxwIdx. 
+
 **Example**
 Given an array arr_A of 5 elements, insert an element into the array at the given position.
 
@@ -133,18 +153,94 @@ Press ENTER to exit console.
 
 
 ## 3. Deletion 
-   Deletion operation refers to removing an element from an array. In order to remove the element from an array you have to reorganize the elements of an array. 
+   Deletion operation refers to removing an element from an array. You can delete the element from an array by reading its index position or value from the user. 
+  
+  **Steps to delete the element at given index position**
+   1. Read the index position of the element to be deleted.
+   2. Return the value of deleted element.
+   3. Shift the subsequent elements upward by one position to fill up the array.
+   4. Replace the last element by zero.
+  
+  **Steps to delete the last element of an array**
+   1. Return the value of last element that is deleted element.
+   2. Replace the last element by zero.
+  
+  **Steps to delete the specific element from an array**
+   1. Read the element tobe deleted from the user.
+   2. Search for the first occurance of input element into an array.
+   3. Return the value of deleted element.
+   4. Shift the subsequent elements upward by one position to fill up the array.   
+   5. Replace the last element of array by zero.
 
 **Example**
+**Arr_Deletion.cpp**
+```cpp
+//Array - Delete operation : Delete element from an array that exists at specific position
+#include <iostream>
+using namespace std;
 
-
-
-
-
-
-
-
-
+int main ()
+{
+  int arr_A[] = { 10, 80, 40, 70, 60 };
+  int i, delIdx, arrSize = 5;
+  
+  //Print element of array 
+  cout << "Elements of Array A are: \n";
+  for (i = 0; i < 5; i++)
+    {
+      cout << "arr_A[" << i << "]=" << arr_A[i] << "\n";
+    }
+    
+  //Read index position of an element to be deleted    
+  cout << "Enter the index position of an element to be deleted:";
+  cin >> delIdx;
+  
+  //Delete element of array that exist at the given index position 
+  if(delIdx >=0 && delIdx < arrSize-1)
+     cout << "Element value of deleted element is : " << arr_A[delIdx] << "\n";
+  
+  //Shift element of array upward by one position to fill up an array
+  for (i = delIdx; i < arrSize - 1; i++)
+    {
+      arr_A[i]=arr_A[i+1];
+    }
+    
+  //Store 0 as the value of last array element
+  arr_A[arrSize-1] = 0; 
+  
+  //Print array after deletion operation
+  cout<<"Elements of array after deletion operation : \n";
+  for (i = 0; i < arrSize; i++)
+    {
+      //arr_A[i]=arr_A[i+1];
+      cout << "arr_A[" << i << "]=" << arr_A[i] << "\n";
+    }
+  
+return 0;
+}
+```
+**Output**
+```cpp
+Elements of Array A are:                                                                                      
+arr_A[0]=10                                                                                                   
+arr_A[1]=80                                                                                                   
+arr_A[2]=40                                                                                                   
+arr_A[3]=70                                                                                                   
+arr_A[4]=60                                                                                                   
+Enter the index position of an element to be deleted:0                                                        
+Element value of deleted element is : 10                                                                      
+Elements of array after deletion operation :                                                                  
+arr_A[0]=80                                                                                                   
+arr_A[1]=40                                                                                                   
+arr_A[2]=70                                                                                                   
+arr_A[3]=60                                                                                                   
+arr_A[4]=0                                                                                                    
+                                                                                                              
+                                                                                                              
+...Program finished with exit code 0                                                                          
+Press ENTER to exit console.                                                                                  
+                          
+```
 
 ## 4. Search
    Searching operation helps to check the existance of a particular element into the array.
