@@ -10,23 +10,20 @@ author: BBB
 # Data Structure
 
 Data structure is a way of collecting and organizing data in computer’s memory so that it can be used to perform operations efficiently. Here the term data refers to any tangible raw values like numbers, words, alphabets, strings etc. 
-For example, Let us consider the statement like ‘A student named **‘Amit’** has scored **‘95’** marks in the subject of Mathematics’. Here the student’s name **‘Amit’** and 
+For example, Let us consider the statement like "A student named **‘Amit’** has scored **‘95’** marks in the subject of Mathematics’. Here the students" name **‘Amit’** and 
 his marks **‘95’** are the raw values. 
 
 When the data is organized in a structured format, it becomes easy to apply functions or operations to the data. We can group the data values to form a data structure. For example, we can store marks of one subject of all students into single variable name like ‘Sub1Math’ and then refer the individual values by specifying its index value. A well-designed data structure takes less space for storing data, less time to execute operations on data and optimum resources to execute the data.
 
 Data structures are also known as Abstract Data Types (ADT) since the behavior of data structure is defined by its set of values and operations. The abstract name of data structure like Stack itself specifies the type of operations supported by it. For example, the Stack data structure supports the Push and Pop operations. 
 
+The following figure shows some of the basic data structures:
+
 {% include aligner.html images="bbb_blog_imgs/DS_Basic_Types.png" %}
-
-
-The above figure shows some of the basic data structures.
-
 
 ## Classification of Data Structures
 
 {% include aligner.html images="bbb_blog_imgs/DS_Types.jpg" %}
-
 
 1.  **Homogeneous and Non-Homogeneous Data Structures**
 

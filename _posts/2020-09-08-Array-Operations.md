@@ -24,7 +24,6 @@ Given an array arr_A of 5 elements like 10,80,40,70,60, traverse and print the e
 
 Arr_Traverse.cpp 
 ```cpp
-
 // Array Traversal Operation - To print all elements of array arr_A
 #include <iostream>
 
@@ -65,7 +64,7 @@ Press ENTER to exit console.
 ##### Example
 Given an array arr_A of 5 elements, insert an element into the array at the given position.
 
-
+Arr_Insertion.cpp
 ``` cpp
 //Array Insertion Operation - Insert an element into array at the specific position
 
