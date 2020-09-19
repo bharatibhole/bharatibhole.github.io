@@ -17,10 +17,14 @@ Array data structure supports following basic operations -
 
 
 ## 1. Traverse 
-   In Traversing operation every element of an array will be visited for processing for only once.  
-  **Steps** to traverse an array
+   In Traversing operation every element of an array will be visited for processing for only once. 
+
+** Steps to traverse an array**
+
      1. Start array traversal from first element that exists at index 0.
+   
      2. Visit that element means apply the process/tesk to that element.
+    
      3. Move to next element and repeat steps from step number 2 till the last element.
      
 **Example**
