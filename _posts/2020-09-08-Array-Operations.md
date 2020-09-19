@@ -17,12 +17,12 @@ Array data structure supports following basic operations -
 
 
 ## 1. Traverse 
-   In Traversing operation every element of an array will be visited for processing for only once. 
+   In Traversing operation every element of an array will be visited only once for processing. 
 
   **Steps to traverse an array**
-  
-   1. Start array traversal from first element that exists at index 0.
-   2. Visit that element means apply the process/tesk to that element.
+
+   1. Start array traversal from the first element that exists at index 0.
+   2. Visit that element that means apply the process/tesk to that element.
    3. Move to next element and repeat steps from step number 2 till the last element.
      
 **Example**
@@ -166,7 +166,7 @@ Press ENTER to exit console.
    4. Replace the last element by zero.
   
   **Steps to delete the last element of an array**
-   1. Return the value of last element that is deleted element.
+   1. Return the value of last element that means deleted element.
    2. Replace the last element by zero.
   
   **Steps to delete the specific element from an array**
@@ -312,10 +312,11 @@ Press ENTER to exit console.
 ```
 
 
-## 5. Update − Updates an element at the given index.
+## 5. Update − Updates an element at the given index
    The Updating operation refers to updating the existing element value from an array at a given index.
 
 **Example**
+
 Given an array arr_A of 5 elements like 10,80,40,70,60 and the values of index and element tobe updated, update element
 of the array.
 
