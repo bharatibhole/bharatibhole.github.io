@@ -20,11 +20,12 @@ Array data structure supports following basic operations -
    In Traversing operation every element of an array will be visited for processing for only once. 
 
   **Steps to traverse an array**
-     1. Start array traversal from first element that exists at index 0.
-     2. Visit that element means apply the process/tesk to that element.
-     3. Move to next element and repeat steps from step number 2 till the last element.
+   1. Start array traversal from first element that exists at index 0.
+   2. Visit that element means apply the process/tesk to that element.
+   3. Move to next element and repeat steps from step number 2 till the last element.
      
 **Example**
+
 Given an array arr_A of 5 elements like 10,80,40,70,60, traverse and print the elements of the array.
 
 **Arr_Traverse.cpp** 
@@ -64,25 +65,26 @@ Press ENTER to exit console.
 ```
 
 ## 2. Insertion 
-   Intsertion operation is to insert one or more elements into an array. The element can be inserted at the begining, end or at any given position.
+  Intsertion operation is to insert one or more elements into an array. The element can be inserted at the begining, end or at any given position.
 
   Let us consider an array of size 'n' with 'm' existing elements, where 'm' is always less than or equal to 'n-1' as array index starts from 0.
 
   **Steps to insert an element at the end of an array**
-    1. if the array is empty that means if m=o, insert the elements at the 1st position into the array.
-    2. if the array contains m elements and m<=n-2,insert the element at (m+1)th position into the array.
+   1. If the array is empty that means if m=o, insert the elements at the 1st position into the array.
+   2. If the array contains m elements and m<=n-2,insert the element at (m+1)th position into the array.
      
   **Steps to insert an element at the begining of an array**
-    1. If the array is empty that means if m=0, insert an element at 1st position into the array.
-    2. If the array of size 'n' contains 'm' elements, then shift the m elements forward by one position and insert the new element at the 1st position.
-    3. If the number of existing elements are equal to the array size that means if n=m, the you can not insert the elements intothe array.
+   1. If the array is empty that means if m=0, insert an element at 1st position into the array.
+   2. If the array of size 'n' contains 'm' elements, then shift the m elements forward by one position and insert the new element at the 1st position.
+   3. If the number of existing elements are equal to the array size that means if n=m, the you can not insert the elements intothe array.
 
   **Steps to insert an element at the specific position into an array**
-    1. Read the index position 'insAtIdx' from the user, where the new element isto be inserted.
-    2. If array is not full and if insAtIdx<=n-2, shift the subsequent element upward by one position that means shift the elements from mth position to insAtIdx position.
-    3. Insert the new element at the given index position neinsAtIdxwIdx. 
+   1. Read the index position 'insAtIdx' from the user, where the new element isto be inserted.
+   2. If array is not full and if insAtIdx<=n-2, shift the subsequent element upward by one position that means shift the elements from mth position to insAtIdx position.
+   3. Insert the new element at the given index position neinsAtIdxwIdx. 
 
 **Example**
+
 Given an array arr_A of 5 elements, insert an element into the array at the given position.
 
 **Arr_Insertion.cpp**
@@ -154,7 +156,7 @@ Press ENTER to exit console.
 
 
 ## 3. Deletion 
-   Deletion operation refers to removing an element from an array. You can delete the element from an array by reading its index position or value from the user. 
+  Deletion operation refers to removing an element from an array. You can delete the element from an array by reading its index position or value from the user. 
   
   **Steps to delete the element at given index position**
    1. Read the index position of the element to be deleted.
@@ -174,6 +176,7 @@ Press ENTER to exit console.
    5. Replace the last element of array by zero.
 
 **Example**
+
 **Arr_Deletion.cpp**
 ```cpp
 //Array - Delete operation : Delete element from an array that exists at specific position
@@ -247,6 +250,7 @@ Press ENTER to exit console.
    Searching operation helps to check the existance of a particular element into the array.
 
 **Example** 
+
 Given an array arr_A of 5 elements like 10,80,40,70,60 and element tobe searched, find the first occurance of an elements 
 into the array.
 
