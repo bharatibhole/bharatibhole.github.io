@@ -19,10 +19,10 @@ Array data structure supports following basic operations -
 ## 1. Traverse 
    In Traversing operation every element of an array will be visited for processing for only once.  
    
-##### Example
+**Example**
 Given an array arr_A of 5 elements like 10,80,40,70,60, traverse and print the elements of the array.
 
-Arr_Traverse.cpp 
+**Arr_Traverse.cpp** 
 ```cpp
 // Array Traversal Operation - To print all elements of array arr_A
 #include <iostream>
@@ -44,7 +44,7 @@ int main()
 
 ```   
 
-##### Output
+**Output**
 ```
 Elements of Array A are:
 arr_A[0]=10                                                                           
@@ -61,10 +61,10 @@ Press ENTER to exit console.
 ## 2. Insertion 
    Intsertion operation is to insert one or more elements into an array. The element can be inserted at the begining, end or at any given position.
    
-##### Example
+**Example**
 Given an array arr_A of 5 elements, insert an element into the array at the given position.
 
-Arr_Insertion.cpp
+**Arr_Insertion.cpp**
 ``` cpp
 //Array Insertion Operation - Insert an element into array at the specific position
 
@@ -107,7 +107,7 @@ int main ()
 ```
 
 
-##### Output
+**Output**
 ```
 Elements of Array A are:                                                                                      
 arr_A[0]=10                                                                                                   
@@ -135,7 +135,7 @@ Press ENTER to exit console.
 ## 3. Deletion 
    Deletion operation refers to removing an element from an array. In order to remove the element from an array you have to reorganize the elements of an array. 
 
-##### Example
+**Example**
 
 
 
@@ -149,11 +149,11 @@ Press ENTER to exit console.
 ## 4. Search
    Searching operation helps to check the existance of a particular element into the array.
 
-##### Example 
+**Example** 
 Given an array arr_A of 5 elements like 10,80,40,70,60 and element tobe searched, find the first occurance of an elements 
 into the array.
 
-Arr_Search.cpp
+**Arr_Search.cpp**
 ```cpp
 
 // Array Searching Operation - To search for the first occurance of the given element into an array
@@ -193,7 +193,7 @@ int main ()
 return 0;
 }
 ```
-##### Output
+**Output**
 ```
 Elements of Array A are:                                                                                      
 arr_A[0]=10                                                                                                   
@@ -213,11 +213,11 @@ Press ENTER to exit console.
 ## 5. Update − Updates an element at the given index.
    The Updating operation refers to updating the existing element value from an array at a given index.
 
-##### Example
+**Example**
 Given an array arr_A of 5 elements like 10,80,40,70,60 and the values of index and element tobe updated, update element
 of the array.
 
-Arr_Update.cpp
+**Arr_Update.cpp**
 ```cpp
 #include <iostream>
 using namespace std;
@@ -248,7 +248,7 @@ int main ()
 }
 ```
 
-##### Output
+**Output**
 ```
 Elements of Array A are:                                                                                      
 arr_A[0]=10                                                                                                   

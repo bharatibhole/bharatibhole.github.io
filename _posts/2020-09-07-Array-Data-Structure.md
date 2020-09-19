@@ -96,10 +96,12 @@ cout <<”Arr[2]=”<<Arr[2];
 When you create an array variable or object, it will be initialized with the address of first element. The memory location address of next consecutive element can be calculated by adding the memory size into the address of current memory location. 
 
 Let us consider the memory location assigned to first element is 3050. The memory rquired to store the integer value is 2 bytes. So the memory location address for second elements can be calculated as 3050 + 2 = 3052.
+
 | | | | | | |
 |-|-|-|-|-|-| 
 | Index           |	0	     | 1       |	2      |      3	|      4 |
 | Element Value	  | 60    | 70      |	75     |	   85 |     90 |
 | Memory Location |	3050 | 3052	| 3054 | 3056 |	3058 |
+
 
 ### Two-Dimensional Array
