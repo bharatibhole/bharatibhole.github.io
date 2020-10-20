@@ -8,6 +8,7 @@ author: BBB
 ---
 
 # Array Operations
+
 Array data structure supports following basic operations - 
 1. Traverse
 2. Insertion
