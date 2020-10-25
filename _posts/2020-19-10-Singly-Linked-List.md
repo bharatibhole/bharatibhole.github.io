@@ -8,7 +8,7 @@ author: BBB
 ---
 
 #Singly Linked List
-
+vvv
 Linked List is a linear collection of data elements in which linear order is not given by their physical placement in memory. In linked list the elements are represented by a node. Each node consists of the data value and referenceto the next element. The last node contains the reference value NULL.
 
 #Singly Linked List operations

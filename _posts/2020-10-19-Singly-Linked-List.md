@@ -3,13 +3,13 @@ layout: post
 title: Singly Linked List
 color: rgb(0,0,255) 
 tags: [Singly Linked List, LL]
-excerpt: Linked List is a 
+excerpt: Linked List is a linear collection of data elements in which linear order is not given by their physical placement in memory. 
 author: BBB
 ---
 
 #Singly Linked List
 
-Linked List is a 
+Linked List is a linear collection of data elements in which linear order is not given by their physical placement in memory. In linked list the elements are represented by a node. Each node consists of the data value and referenceto the next element. The last node contains the reference value NULL.
 
 #Singly Linked List operations
 1. Insertion of an element at the end of Singly Linked List
