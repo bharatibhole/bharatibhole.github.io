@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Singly Linked List
-color: rgb(0,240,255) 
+color: rgb(0,0,255) 
 tags: [Singly Linked List, LL]
 excerpt: Linked List is a linear collection of data elements in which linear order is not given by their physical placement in memory.
 author: BBB

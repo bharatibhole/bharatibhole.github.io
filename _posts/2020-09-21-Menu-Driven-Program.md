@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Structure
-tags: [Programming, Data Structure]
+tags: [Programming, Menu Driven Program]
 feature-img: "/assets/img/wordcloudbutterfly.jpg"
 excerpt: Menu Driven Program helps user to select and execute a particular operation out of multiple operations.
 author: BBB
