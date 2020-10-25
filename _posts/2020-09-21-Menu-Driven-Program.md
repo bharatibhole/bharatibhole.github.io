@@ -17,7 +17,7 @@ Write a Menu Driven program to perform the Matrix addition, Multiplication and T
 
 **arrayOper.cpp**
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 int a[2][2]={{1,2},{3,4}};
@@ -60,7 +60,7 @@ void perform(int choice)
           displayRes(); 
           break; 
     case 4:
-          cout<<"Program terminated";break;
+          cout<<"Program terminated \n";exit(0);
     default:
           cout<<"Wrong choice";break;
     } 
@@ -87,7 +87,6 @@ void addition()
             c[i][j]=a[i][j]+b[i][j];         
            }
        }
-
 }
 void multiplication()
 {
@@ -133,7 +132,7 @@ return 0;
 
 **Output**
 
-```
+```cpp
 Menu
 1. Matrix Addition
 2. Matrix Multiplication
@@ -168,8 +167,5 @@ Menu
 4. Exit
 Enter Your choice: 4
 Program terminated 
-
-...Program finished with exit code 0                                                                          
-Press ENTER to exit console.       
 ```
 
