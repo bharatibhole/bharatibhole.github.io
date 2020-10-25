@@ -3,7 +3,7 @@ layout: post
 title: Array Operations 
 color: rgb(0,0,255) 
 tags: [Array, Array Operations]
-excerpt: An array data structure supports Insert, Update, Delete, Search and Traverse operatinos. 
+excerpt: An array data structure supports Insert, Update, Delete, Search and Traverse operations. 
 author: BBB
 ---
 

@@ -9,9 +9,12 @@ author: BBB
 
 # Singly Linked List
 
-Linked List is a linear collection of data elements in which linear order is not given by their physical placement in memory. In linked list the elements are represented by a node. Each node consists of the data value and referenceto the next element. The last node contains the reference value NULL.
+Linked List is a linear collection of data elements in which linear order is not given by their physical placement in memory. In linked list the elements are represented by a node. Each node consists of the data value and reference to the next element. The last node contains the reference value NULL.
 
 # Singly Linked List operations
+
+The Linked List supports the following operations:
+
 1. Insertion of an element at the end of Singly Linked List
 2. Insertion of an element at the begining of Singly Linked List
 3. Insertion of an element at a particular position
@@ -19,7 +22,7 @@ Linked List is a linear collection of data elements in which linear order is not
 5. Reversing the Linked List
 
 
-## Insertion of an element at the end of Singly Linked List
+## 1. Insertion of an element at the end of Singly Linked List
 
 **SLinkedList.cpp**
 ```cpp
