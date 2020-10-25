@@ -3,11 +3,13 @@ layout: post
 title: Singly Linked List
 color: rgb(0,0,255) 
 tags: [Singly Linked List, LL]
-excerpt: Linked List Definition
+excerpt: Linked List is a 
 author: BBB
 ---
 
 #Singly Linked List
+
+Linked List is a 
 
 #Singly Linked List operations
 1. Insertion of an element at the end of Singly Linked List
