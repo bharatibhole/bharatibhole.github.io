@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Doubly Linked List
+color: rgb(0,200,255)
 tags: [Programming,Linked List, Doubly Linked List]
-feature-img: "/assets/img/wordcloudbutterfly.jpg"
 excerpt: The Doubly Linked List is a Linked List that can be traversed in both Forward and Backward Direction.
 anchor: BBB
 ---

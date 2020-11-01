@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Array Data Structure
-color: rgb(0,0,255) 
+color: rgb(0,,150,255) 
 tags: [Array Operations, Array Data Structure,Data Structure]
 excerpt: An array is a collection of finite number of elements that means the size an array is fixed and should be defined at the time of declaration of an array.
 author: BBB
