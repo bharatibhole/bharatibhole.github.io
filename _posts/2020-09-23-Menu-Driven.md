@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Menu Driven Program
+color: rgb(0,180,255) 
 tags: [Programming, Menu Driven Program]
-feature-img: "/assets/img/wordcloudbutterfly.jpg"
 excerpt: Menu Driven Program helps user to select and execute a particular operation out of multiple operations.
 author: BBB
 ---

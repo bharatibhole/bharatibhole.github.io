@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Doubly Linked List
-color: rgb(0,200,255)
+color: rgb(0,250,255)
 tags: [Programming,Linked List, Doubly Linked List]
 excerpt: The Doubly Linked List is a Linked List that can be traversed in both Forward and Backward Direction.
 anchor: BBB
