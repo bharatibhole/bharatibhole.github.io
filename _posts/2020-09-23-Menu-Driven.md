@@ -18,6 +18,7 @@ Write a Menu Driven program to perform the Matrix addition, Multiplication and T
 **arrayOper.cpp**
 
 ```cpp
+{% raw %}
 #include <iostream>
 using namespace std;
 int a[2][2]={{1,2},{3,4}};
@@ -128,6 +129,8 @@ int main()
     }while(choice<6);
 return 0;    
 }    
+{% endraw %}
+
 ```
 
 
