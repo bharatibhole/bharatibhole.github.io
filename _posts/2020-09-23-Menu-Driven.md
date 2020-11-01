@@ -9,7 +9,7 @@ author: BBB
 
 # Menu Driven Program
 
-Menu Driven Program helps user to select and execute a particular operation out of multiple operations. 
+Menu Driven Program helps user to select and execute a particular operation out of multiple operations.
 
 **Example**
 
@@ -129,6 +129,7 @@ int main()
 return 0;    
 }    
 ```
+
 
 **Output**
 
